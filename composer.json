@@ -1,5 +1,5 @@
 {
-    "name": "AtServer/Generator",
+    "name": "at_server/generator",
     "description": "Generator",
     "license": "MIT",
     "type": "library",
