@@ -72,7 +72,7 @@ class MysqlEntityBuilder {
 			$str="<?php
 namespace {$nameSpace};
 
-use server\\DB\\MysqlEntity;
+use AtServer\\MysqlEntity;
 
 class {$className} extends MysqlEntity {
 	public function __construct( \$id = null ) {

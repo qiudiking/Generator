@@ -51,9 +51,9 @@ class MysqlFactoryBuilder {
 
 namespace Factory;
 
-use server\\DB\EntityFactoryBase;
-use server\\Exception\\DBException;
-use server\\Exception\\ErrorHandler;
+use AtServer\\EntityFactoryBase;
+use AtServer\\DBException;
+use AtServer\\ErrorHandler;
 class {$saveClassName} extends EntityFactoryBase {
 ";
 
@@ -65,7 +65,7 @@ class {$saveClassName} extends EntityFactoryBase {
 	* @param mixed \$id
 	* @param bool \$is_instance 是否单例,默认false
 	* @return \\Entity\\{$_db_nameSpace}\\{$className}
-	* @throws \\server\\Exception\\DBException
+	* @throws \\AtServer\\DBException
 	*/
 	public static function {$className}(\$id=null,\$is_instance=false){
 		\$instance=parent::instance(\\Entity\\{$_db_nameSpace}\\{$className}::class,\$id,\$is_instance);
