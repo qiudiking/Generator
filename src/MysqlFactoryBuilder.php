@@ -49,7 +49,7 @@ class MysqlFactoryBuilder {
 		$str
 			= "<?php
 
-namespace Factory;
+namespace Library\\Factory;
 
 use AtServer\\EntityFactoryBase;
 use AtServer\\DBException;
